@@ -1,0 +1,153 @@
+:root {
+    --main-white: #FFFFFF;
+    --back-grey: #C0C0C0;
+    --blue-button: #167BF7;
+    --background: #00030C;
+    --main-font: 'Inter';
+    --blue-button-hover: #4f92e4;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--main-white);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__button {
+    background-color: var(--blue-button);
+    border-radius: 5px;
+    color: var(--main-white);
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin: 1em 0;
+}
+
+.sec__button {
+    background-color: transparent;
+    color: var(--main-white);
+    border: 2px solid;
+}
+
+.container__warning {
+    font-size: 12px;
+    color: var(--back-grey);
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
+}
+
+.container__box {
+    margin: 0 6em;
+}
+
+.second__image {
+    width: 70%;
+    margin-left: 2em;
+}
+
+.second {
+    align-items: center;
+    margin: 0 6em;
+}
+
+.description__title {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--main-white);
+
+}
+
+.description__text {
+    font-size: 16px;
+    color: var(--back-grey);
+}
+
+.third__button {
+    display: inline-block;
+}
+
+.container__description {
+    padding: 3em;
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 4em 0;
+}
+
+.devices {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.logo__footer {
+    margin: 9em 0 3em;
+
+}
+
+.list__footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.link__list {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+.footer__text {
+    margin: 2em;
+    font-size: 14px;
+    color: var(--back-grey);
+}
+
+.link__list:hover {
+    color: var(--blue-button);
+}
+
+.link__list:active {
+    color: purple;
+}
+
+.container__button:hover {
+    background-color: var(--blue-button-hover);
+    color: var(--background);
+}
